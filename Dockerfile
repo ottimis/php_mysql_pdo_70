@@ -7,4 +7,4 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" &&
     php composer-setup.php --install-dir=/bin --filename=composer &&\
     a2enmod rewrite
 # Slim framework
-COPY misc/.htaccess /var/www/html
+COPY misc/.htaccess /var/www/html 
